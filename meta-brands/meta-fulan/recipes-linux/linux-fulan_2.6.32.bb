@@ -66,7 +66,9 @@ SRC_URI_append_spark = " \
     file://linux-sh4-spark-af901x-NXP-TDA18218.patch;patch=1 \
     file://linux-sh4-spark-dvb-as102.patch;patch=1 \
 "
-
+SRC_URI_append_test = " \
+    file://linux-sh4-test_setup_stm24_${STM_PATCH_STR}.patch;patch=1 \
+    
 S = "${WORKDIR}/git"
 PARALLEL_MAKEINST = ""
 
