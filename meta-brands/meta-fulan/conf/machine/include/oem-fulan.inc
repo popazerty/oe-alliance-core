@@ -24,6 +24,7 @@ ${@base_contains('MACHINEBUILD', 'gis8120', 'S 8120' , '', d)}\
 ${@base_contains('MACHINEBUILD', 'dynaspark', 'SPARK' , '', d)}\
 ${@base_contains('MACHINEBUILD', 'dynasparkplus', 'SPARK Plus HDPVR' , '', d)}\
 ${@base_contains('MACHINEBUILD', 'dynaspark7162', 'SPARK 7162' , '', d)}\
+${@base_contains('MACHINEBUILD', 'test', 'TEST' , '', d)}\
 "
 
 MACHINE_BRAND = "\
@@ -47,6 +48,7 @@ ${@base_contains('MACHINEBUILD', 'gis8120', 'Galaxy Innovations' , '', d)}\
 ${@base_contains('MACHINEBUILD', 'dynaspark', 'Dynavision' , '', d)}\
 ${@base_contains('MACHINEBUILD', 'dynasparkplus', 'Dynavision' , '', d)}\
 ${@base_contains('MACHINEBUILD', 'dynaspark7162', 'Dynavision' , '', d)}\
+${@base_contains('MACHINEBUILD', 'test', 'Test' , '', d)}\
 "
 
 IMAGEDIR ?= "\
@@ -70,6 +72,7 @@ ${@base_contains('MACHINEBUILD', 'gis8120', 'enigma2' , '', d)}\
 ${@base_contains('MACHINEBUILD', 'dynaspark', 'enigma2' , '', d)}\
 ${@base_contains('MACHINEBUILD', 'dynasparkplus', 'enigma2' , '', d)}\
 ${@base_contains('MACHINEBUILD', 'dynaspark7162', 'enigma2' , '', d)}\
+${@base_contains('MACHINEBUILD', 'test', 'enigma2' , '', d)}\
 "
 
 MTD_KERNEL = "\
@@ -93,6 +96,7 @@ ${@base_contains('MACHINEBUILD', 'gis8120', 'mtd5' , '', d)}\
 ${@base_contains('MACHINEBUILD', 'dynaspark', 'mtd5' , '', d)}\
 ${@base_contains('MACHINEBUILD', 'dynasparkplus', 'mtd5' , '', d)}\
 ${@base_contains('MACHINEBUILD', 'dynaspark7162', 'mtd5' , '', d)}\
+#${@base_contains('MACHINEBUILD', 'test', 'mtd5' , '', d)}\
 "
 
 MTD_ROOTFS = "\
@@ -116,6 +120,7 @@ ${@base_contains('MACHINEBUILD', 'gis8120', 'mtd6' , '', d)}\
 ${@base_contains('MACHINEBUILD', 'dynaspark', 'mtd6' , '', d)}\
 ${@base_contains('MACHINEBUILD', 'dynasparkplus', 'mtd6' , '', d)}\
 ${@base_contains('MACHINEBUILD', 'dynaspark7162', 'mtd6' , '', d)}\
+#${@base_contains('MACHINEBUILD', 'test', 'mtd6' , '', d)}\
 "
 
 KERNEL_FILE = "uImage"
