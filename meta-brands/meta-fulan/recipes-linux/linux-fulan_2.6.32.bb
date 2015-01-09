@@ -68,6 +68,8 @@ SRC_URI_append_spark = " \
 "
 SRC_URI_append_test = " \
     file://linux-sh4-test_setup_stm24_${STM_PATCH_STR}.patch;patch=1 \
+    file://linux-sh4-i2c-st40-pio_stm24_${STM_PATCH_STR}.patch;patch=1 \
+    file://linux-sh4-test_rtl8201_stm24${STM_PATCH_STR}.patch;patch=1 \
     
 S = "${WORKDIR}/git"
 PARALLEL_MAKEINST = ""
