@@ -96,7 +96,7 @@ ${@base_contains('MACHINEBUILD', 'gis8120', 'mtd5' , '', d)}\
 ${@base_contains('MACHINEBUILD', 'dynaspark', 'mtd5' , '', d)}\
 ${@base_contains('MACHINEBUILD', 'dynasparkplus', 'mtd5' , '', d)}\
 ${@base_contains('MACHINEBUILD', 'dynaspark7162', 'mtd5' , '', d)}\
-#${@base_contains('MACHINEBUILD', 'test', 'mtd5' , '', d)}\
+${@base_contains('MACHINEBUILD', 'test', 'mtd2' , '', d)}\
 "
 
 MTD_ROOTFS = "\
@@ -120,7 +120,7 @@ ${@base_contains('MACHINEBUILD', 'gis8120', 'mtd6' , '', d)}\
 ${@base_contains('MACHINEBUILD', 'dynaspark', 'mtd6' , '', d)}\
 ${@base_contains('MACHINEBUILD', 'dynasparkplus', 'mtd6' , '', d)}\
 ${@base_contains('MACHINEBUILD', 'dynaspark7162', 'mtd6' , '', d)}\
-#${@base_contains('MACHINEBUILD', 'test', 'mtd6' , '', d)}\
+${@base_contains('MACHINEBUILD', 'test', 'mtd3' , '', d)}\
 "
 
 KERNEL_FILE = "uImage"
